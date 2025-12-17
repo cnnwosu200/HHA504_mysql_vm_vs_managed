@@ -12,19 +12,19 @@ Compared to Cloud SQL, the self-managed MySQL setup on a GCP Compute Engine VM i
 
 ### Small Student App
 **Choice: Managed MySQL**
-Lower operational burden, focus on development.
-Cost: ~$25-50/month is acceptable for learning.
+* Lower operational burden, focus on development.
+* The cost is acceptable for learning.
 
 ### Departmental Analytics DB
 **Choice: Managed MySQL**
-Reliability and automated backups are critical.
-Team doesn't need DB admin overhead.
+* Reliability and automated backups are critical.
+* Team doesn't need DB admin overhead.
 
 ### HIPAA-Aligned Workload
 **Choice: Managed MySQL with private networking**
-Cloud providers offer HIPAA compliance.
-Human-caused risk is low. 
-Encryption at rest/in transit by default.
+* Cloud providers offer HIPAA compliance.
+* Human-caused risk is low. 
+* Encryption at rest/in transit by default.
 
 
 
