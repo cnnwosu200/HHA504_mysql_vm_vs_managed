@@ -31,7 +31,7 @@ Created user and database:
 ```sql
 CREATE USER 'chinyere'@'%' IDENTIFIED BY 'password';
 CREATE DATABASE chinyere;
-GRANT ALL PRIVILEGES ON chinyere *.* TO 'class_user'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'chinyere'@'%' with grant option;
 ```
 
 ### Step 4: Testing (5 min)
