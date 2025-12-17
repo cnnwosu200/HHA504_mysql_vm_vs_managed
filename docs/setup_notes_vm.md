@@ -2,24 +2,29 @@
  VM MySQL Setup Notes
 
 ## Cloud Provider: GCP
-## Region: us-east1-b
+## Region: us-central1-c 
 ## Total Duration: 40 minutes
 
 ### Step 1: VM Creation (5 min)
-- Created e2-medium instance
-- Ubuntu 22.04 LTS
+- Created e2-small (2 vCPUs, 2 GB Memory)
+- Ubuntu 25.10 minimal
 - Opened firewall: 22, 3306
 
 ### Step 2: MySQL Installation (10 min)
 ```bash
-sudo apt update && sudo apt install mysql-server -y
-sudo systemctl enable mysql
+sudo apt update && sudo apt install mysql-server mysql-client -y
+
 ```
 
-### Step 3: Configuration (15 min)
+### Step 3: Configuration (20 min)
 Edited /etc/mysql/mysql.conf.d/mysqld.cnf:
+Change the bind address
 ```
 bind-address = 0.0.0.0
+```
+Restart MySQL:
+```
+sudo systemctl restart mysql
 ```
 
 Created user and database:
