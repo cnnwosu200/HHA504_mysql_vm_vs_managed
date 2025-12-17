@@ -29,9 +29,9 @@ sudo systemctl restart mysql
 
 Created user and database:
 ```sql
-CREATE USER 'class_user'@'%' IDENTIFIED BY 'password';
-CREATE DATABASE class_db_netid;
-GRANT ALL PRIVILEGES ON class_db_netid.* TO 'class_user'@'%';
+CREATE USER 'chinyere'@'%' IDENTIFIED BY 'password';
+CREATE DATABASE chinyere;
+GRANT ALL PRIVILEGES ON chinyere *.* TO 'class_user'@'%';
 ```
 
 ### Step 4: Testing (5 min)
