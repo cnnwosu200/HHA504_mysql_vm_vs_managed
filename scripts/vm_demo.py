@@ -1,3 +1,4 @@
+
 # vm_demo.py — Linear, step-by-step demo for self-managed MySQL on a VM
 # Run this file top-to-bottom OR run it cell-by-cell in VS Code.
 # Prereqs:

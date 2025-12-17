@@ -1,3 +1,4 @@
+
 # MySQL Deployment Comparison
 
 ## Setup Time
@@ -42,3 +43,4 @@ Encryption at rest/in transit by default.
 Managed MySQL is superior for most use cases.
 Only choose VM when: specific customization needed,
 cost optimization at scale, or learning purposes.
+

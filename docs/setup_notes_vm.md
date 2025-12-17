@@ -1,3 +1,4 @@
+
  VM MySQL Setup Notes
 
 ## Cloud Provider: GCP
@@ -37,3 +38,4 @@ GRANT ALL PRIVILEGES ON class_db_netid.* TO 'class_user'@'%';
 2. Access denied → Had to update firewall rules
 
 ### Total Setup Time: ~ 40 minutes
+
