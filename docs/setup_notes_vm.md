@@ -1,5 +1,5 @@
 
- VM MySQL Setup Notes
+ # VM MySQL Setup Notes
 
 ## Cloud Provider: GCP
 ## Region: us-central1-c 
